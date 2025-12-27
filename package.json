@@ -1,0 +1,28 @@
+{
+  "name": "fx-ssg",
+  "version": "1.0.0",
+  "description": "lightweight Static Site Generator (SSG) designed for the FX Library.",
+  "keywords": [
+    "ssg",
+    "fxssg"
+  ],
+  "homepage": "https://github.com/damianwebpl/fx-ssg#readme",
+  "bugs": {
+    "url": "https://github.com/damianwebpl/fx-ssg/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damianwebpl/fx-ssg.git"
+  },
+  "license": "MIT",
+  "author": "Damian (DamianWebPL)",
+  "type": "commonjs",
+  "main": "index.js",
+  "bin": {
+    "fx-build": "./index.js"
+  },
+  "dependencies": {
+    "html-minifier-terser": "^7.2.0",
+    "sharp": "^0.34.5"
+  }
+}
